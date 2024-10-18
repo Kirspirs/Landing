@@ -1,0 +1,139 @@
+header {
+    display: inline-flex;
+    justify-content: center;
+}
+.phone {
+    text-align: left;
+    color: #fff;
+}
+.allsave {
+    font-size:10px;
+}
+body {
+    background-color: rgb(216, 243, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color:fff;
+    text-align: center;
+    padding: 0.2rem;
+}
+main {
+    padding: 2rem;
+    background-color: rgb(216, 243, 220);
+    margin: 2rem;
+    border-radius: 8px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.ct_one {
+    width: 110.7rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1.25rem;
+}
+.box_one {
+    font-size: 20px;
+}
+.news {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.adrr {
+    width: 20rem;
+    height: 20rem;
+}
+.div_mail {
+    display: flex;
+    justify-content: center;
+    
+}
+.mail {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444
+
+}
+.ct_mail {
+    padding-top: 2rem;
+}
+.sent_mail {
+    height: 55px;
+}
+hr {
+    border-color:#5fd3a3;
+    border-radius: 5px;
+    border-width: 10px;
+}
+.container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.price_time {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 19rem;
+
+}
+.price {
+    font-size: 20px;
+}
+.time {
+    font-size: 10px;
+}
+.first, .second, .third {
+    display:inline-flex;
+    justify-content: center;
+    width:170px;
+    height:55px;
+}
+.price_first, .price_second, .price_third {
+    font-size: 20px;
+}
+.time_first, .time_second, .time_third {
+    height:50px;
+    font-size: 10px;
+}
+.box {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top:15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+button {
+    position: relative;
+    margin-bottom: 15px;   
+    border: none;
+    background-color: #5fd3a3;
+    border-radius:8px;
+    width:75px;
+    height:40px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.4;
+}
+.Contacts,.a_contacts,.p_contacts {
+    text-decoration: none;
+    color:#333;
+    line-height:0.2em;
+}
